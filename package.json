@@ -20,5 +20,9 @@
   "homepage": "https://github.com/giftcardforfree79/node#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "typescript": "^7.0.2"
   }
 }

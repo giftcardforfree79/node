@@ -10,3 +10,12 @@ const checkLogin=()=>{ return new Promise(
     }    
 )
 }
+async function handleLogin(){ 
+    try{
+        const result=await checkLogin();
+        console.log(result);
+    }catch(error){
+        console.log(error);
+    }
+    }
+    handleLogin();
